@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  /* background-color: black; */
+  height: 100vh;
+  width: 20vh;
+}
+
+li {
+  margin: 20px 0px;
+  padding-left: 10%;
+  list-style: none;
+}
+
+h1.logo {
+  padding-left: 10%;
+  padding-top: 10%;
+}
+
+.body {
+  padding-left: 5%;
+  padding-top: 5%;
+  height: 100vh;
+  width: 80vh;
+  background-color: wheat;
+}
+
+.daily {
+  margin-top: 5%;
+  background: lightblue;
+  width: 60%;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+}
+
+.banner select {
+  margin-left: 5%;
+  height: 2rem;
+  width: 10rem;
+  border-radius: 1rem;
+  background: rgb(109, 138, 148);
+}
+
+.daily {
+  display: flex;
+}
+
+.meditations {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.meditation {
+  height: 150px;
+  width: 100px;
+  display: flex;
+  flex-direction: column-reverse;
+}
