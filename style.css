@@ -92,13 +92,6 @@ nav a {
 }
 
 .meditations {
-  /* 
-  margin-right: 300px;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  
-  height: 60vh; */
   width: 100%;
   margin-top: 20px;
   display: grid;
@@ -115,22 +108,25 @@ nav a {
   width: 150px;
   margin-bottom: 30px;
   z-index: 1;
+  border-radius: 5%;
 }
 
 .meditation .letter {
   position: absolute;
-  margin-top: 150px;
+  margin-top: 153px;
   width: 150px;
-  font-size: 1rem;
-  background: black;
-  opacity: 50%;
+  height: 48px;
+  background-color: rgba(0, 0, 0, 0.4);
   z-index: 2;
+  border-radius: 0% 0% 15% 15%;
+  padding: 0.1rem;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .meditation h3 {
-  position: ;
-}
-
-.meditation h3 .panic {
-  margin-top: 10px;
+  color: white;
+  z-index: 3;
+  font-size: 0.9rem;
+  padding: 3px;
 }
