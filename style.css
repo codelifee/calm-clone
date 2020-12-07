@@ -131,6 +131,16 @@ nav .active {
   flex-direction: column;
 }
 
+.meditation {
+  margin: 0;
+  padding: 0;
+  transition: transform 0.5s ease;
+}
+
+.meditation:hover {
+  transform: scale(1.2);
+}
+
 .meditation .nature {
   height: 200px;
   width: 150px;
@@ -181,9 +191,12 @@ nav .active {
     /* overflow-x: hidden; */
   }
 
+  body {
+    z-index: -100;
+  }
+
   nav {
     width: 100%;
-    z-index: -1;
     position: absolute;
     transition: all 0.5s ease;
   }
@@ -196,8 +209,17 @@ nav .active {
   }
 
   nav .logo {
+    margin-left: 20px;
     padding: 15px 10px;
     width: 100vw;
+  }
+
+  nav .logo-back .burger {
+    cursor: pointer;
+  }
+
+  .buger:hover {
+    background: white;
   }
 
   nav .logo-back i {
@@ -205,9 +227,8 @@ nav .active {
     margin-right: 3rem;
   }
 
-  ul {
-    margin-left: -50px;
-    transform: translateX(100vh);
+  .nav-links {
+    transform: translateX(100%);
     background: linear-gradient(rgb(0, 85, 136), rgb(102, 170, 187));
   }
 
@@ -216,15 +237,15 @@ nav .active {
   }
 
   .body {
-    margin-top: 5rem;
-    width: 100vw;
+    transform: translateY(5rem);
+    width: 100%;
     height: 100%;
     margin-left: 0;
     background: linear-gradient(rgb(0, 85, 136), rgb(102, 170, 187));
   }
 
   .meditations {
-    width: 100vw;
+    width: 100%;
     height: 100%;
   }
 
