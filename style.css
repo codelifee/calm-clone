@@ -178,7 +178,7 @@ nav .active {
   }
 
   nav {
-    width: 100vh;
+    width: 100%;
     z-index: -1;
     position: absolute;
     transition: all 0.5s ease;
@@ -225,6 +225,6 @@ nav .active {
   }
 
   .daily {
-    width: 350px;
+    min-width: 350px;
   }
 }
