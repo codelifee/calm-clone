@@ -36,11 +36,15 @@ nav .logo-back i {
 }
 
 nav li {
-  margin: 20px 0px;
+  padding: 20px 0px;
   padding-left: 10%;
   list-style: none;
   display: flex;
   align-items: center;
+}
+
+nav li:hover {
+  background: rgb(255, 255, 255, 40%);
 }
 
 nav i {
