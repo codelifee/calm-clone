@@ -35,9 +35,13 @@ nav .logo-back i {
   display: none;
 }
 
+nav ul {
+  transform: translateX(0%);
+}
+
 nav li {
   padding: 20px 0px;
-  padding-left: 10%;
+  padding-left: 35px;
   list-style: none;
   display: flex;
   align-items: center;
