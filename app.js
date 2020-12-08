@@ -56,3 +56,7 @@ function myfunction(x) {
 let x = window.matchMedia("(min-width: 950px)")
 myfunction(x);
 x.addListener(myfunction);
+
+function myhref(url) {
+    window.location.href = url;
+}
