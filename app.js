@@ -27,20 +27,18 @@ burger.addEventListener('click', () => {
 
 navLinks.forEach(item => {
 
-    item.addEventListener('click', ()=>{
 
-        item.classList.remove("active");
-
-
-    });
+    console.log(item);
 
 
     item.addEventListener('click', ()=>{
 
-        console.log(item.classList.contains("active"));
-        // if()
 
-        item.classList.toggle("active");
+        navLinks.forEach(item => {
+            item.classList.remove("active");
+        })
+
+        item.classList.add("active");
 
 
     });
